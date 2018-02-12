@@ -7,7 +7,7 @@ type MegaCliPhysicalDisk struct {
 	Wwn                                 string `json:"wwn"`
 	MedErrCount                         string `json:"media_error_count"`
 	OthErrCount                         string `json:"other_error_count"`
-	PredictiveFailureCount              string `json:"predictive_failure_ount"`
+	PredictiveFailureCount              string `json:"predictive_failure_count"`
 	LastPredictiveFailureEventSeqNumber string `json:"last_predictive_failure_event_seq_number"`
 	PdType                              string `json:"pd_type"`
 	RawSize                             string `json:"raw_size"`
